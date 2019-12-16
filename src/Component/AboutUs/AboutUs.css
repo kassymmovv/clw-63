@@ -1,0 +1,132 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    color: #000;
+    font-size: 21px;
+}
+
+
+.container{
+    background: url("/public/logo192.png");
+   padding: 0 50px 0 50px;
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.ppd{
+    display: block;
+    padding-left: 28%;
+    margin-top: 7px;
+}
+.pp{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 39px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    padding-right: 40px;
+}
+.service-block{
+    padding: 110px 15px 60px;
+}
+.service-title{
+    padding: 0 13% 23px;
+    display: table;
+}
+.service-title h3{
+    font-size: 50px;
+    margin: 0;
+    text-transform: uppercase;
+    white-space: nowrap;
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 10px;
+    padding-top: 12px;
+}
+.service-title span{
+    color: #ffcc01;
+}
+.service-title p{
+    font-weight: 300;
+    margin: 0;
+    line-height: 1.38;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 33px;
+    padding-top: 8px;
+    position: relative;
+}
+
+
+.box{
+    border: 7px solid #ebebeb;
+    margin: 2%;
+    max-width: 554px;
+    min-width: 300px;
+    padding: 9px 110px 30px 29px;
+}
+.q{
+    margin-left: 0px;
+    margin-right: 12px;
+}
+.w{
+    margin-right: 0px;
+    margin-left: 45px;
+}
+.e{
+    margin-left: 0px;
+    margin-right: 12px;
+    margin-top: 35px;
+}
+.r{
+    margin-right: 0px;
+    margin-left: 45px;
+    margin-top: 35px;
+}
+.box h3{
+    margin-top: 15px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.ee{
+    text-transform: uppercase;
+}
+.box:hover{
+    background: #ffcc01;
+    border: none;
+}
+.text{
+    margin-top: -16px;
+    line-height: 1.5;
+}
+.textt{
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 18px;
+    padding-left: 7px;
+    margin-bottom: 0px;
+    position: relative;
+}
+.textt::after{
+    content:"";
+    position: absolute;
+    width: 57px;
+    height: 39px;
+    top: 10px;
+    right: -97px;
+
+}
+.box:hover .textt::after{
+    content:"";
+    position: absolute;
+    width: 57px;
+    height: 39px;
+    top: 10px;
+    right: -97px;
+
+}
